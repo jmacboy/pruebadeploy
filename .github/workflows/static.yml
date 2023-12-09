@@ -2,7 +2,7 @@ name: Deploy static content to server
 
 on:
   push:
-    branches: ["release/*"]
+    branches: ["develop"]
 
 jobs:
   deploy:
